@@ -151,14 +151,3 @@ This project is licensed under the **GPL3 License**. Feel free to use, modify, a
 ## 🙋 Author
 
 Built with ❤️ by [Bimal](https://github.com/bimalendu)
-
-```
-
----
-
-Let me know if you want this to include:
-
-- File preview (e.g., first few lines of TXT/PDF/DOCX files)
-- Deployment instructions (Streamlit Sharing / Docker)
-- Screenshot placeholders (I can include Markdown for that too)
-```
