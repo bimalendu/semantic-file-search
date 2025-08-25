@@ -1,32 +1,25 @@
-﻿---
-
-````markdown
 # 📁 Semantic File Search (with SQLite + FAISS)
 
-This is a **Streamlit** application for **semantic file name search** across multiple folders using **vector embeddings**, **FAISS**, and persistent **SQLite** storage.
-
+This is a Streamlit application for semantic file name search across multiple folders using vector embeddings, FAISS, and persistent SQLite storage.
 You can index file names from folders, search them semantically, and visualize file distribution using word clouds.
-
----
 
 ## 🚀 Features
 
-- 🔍 **Semantic Search** — Search files by meaning using `sentence-transformers`
-- 🗂️ **Multi-folder Input** — Enter multiple folder paths
-- 🔁 **Recursive File Indexing** — Scans all subfolders
-- 💾 **SQLite Storage** — Stores file metadata and embeddings
-- ⚡ **FAISS Integration** — Fast vector similarity search
-- 📊 **Word Cloud Visualization**
+- 🔍 Semantic Search — Search files by meaning using `sentence-transformers`
+- 🗂️ Multi-folder Input — Enter multiple folder paths
+- 🔁 Recursive File Indexing — Scans all subfolders
+- 💾 SQLite Storage — Stores file metadata and embeddings
+- ⚡ FAISS Integration — Fast vector similarity search
+- 📊 Word Cloud Visualization
   - All indexed file names
   - Search results
-- 📋 **File Metadata Display**
+- 📋 File Metadata Display
   - Filename
   - Human-readable file size
   - Date modified
   - Full path
-- ➕ **"Load More" Pagination**
+- ➕ "Load More" Pagination
 
----
 
 ## 🛠️ Installation
 
@@ -70,17 +63,15 @@ streamlit run app.py
 
 ### In the App:
 
-1. Enter one or more folder paths in the **sidebar**, one per line
-2. Click **"Index Files"** to scan and embed filenames
-3. Enter a **semantic search query** (e.g. `project report`, `budget summary`)
+1. Enter one or more folder paths in the sidebar, one per line
+2. Click "Index Files" to scan and embed filenames
+3. Enter a semantic search query (e.g. `project report`, `budget summary`)
 4. View:
 
    * Search results with file metadata
    * Word cloud of all files
    * Word cloud of search results
    * Load more results dynamically
-
----
 
 ## 📦 File Structure
 
@@ -92,8 +83,6 @@ semantic-file-search/
 ├── requirements.txt    # Python package requirements
 └── README.md           # Project documentation
 ```
-
----
 
 ## 📄 Example Output
 
